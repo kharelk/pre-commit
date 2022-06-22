@@ -1,10 +1,9 @@
 def greet(name: str):
     print(f"hello, {name}")
-    print("nice to meet you!")
 
 
 def main():
-    for name in "James", "Subscriber", "other":
+    for name in "name1", "name2", "name3":
         greet(name)
 
 
